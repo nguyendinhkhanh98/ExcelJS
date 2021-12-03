@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>Exceljs</p>
+    <TableContent />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TableContent from './components/TableContent'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    TableContent,
+  },
 }
 </script>
 
